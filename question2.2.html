@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+var points = [35, 100, 41, 57, 25, 310];
+document.getElementById("demo").innerHTML = myArrayMax(points);
+function myArrayMax(arr) {
+return Math.min.apply(null, arr);
+}
+</script>
+</body>
+</html>
